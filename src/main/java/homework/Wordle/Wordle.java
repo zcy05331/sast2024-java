@@ -8,9 +8,45 @@ public class Wordle {
     static final int TOTAL_CHANCES = 6;             // The chances in total
 
     // Guess `word` at state `s`
+    private static void updateAlphabetState(State s, char c, Color color) {
+        if(color == Color.GREEN)
+            s.alphabetState[c - 'A'] = Color.GREEN;
+        else if(color == Color.YELLOW && s.alphabetState[c - 'A'] != Color.GREEN)
+            s.alphabetState[c - 'A'] = Color.YELLOW;
+        else if(color == Color.RED && s.alphabetState[c - 'A'] != Color.GREEN && s.alphabetState[c - 'A'] != Color.YELLOW)
+            s.alphabetState[c - 'A'] = Color.RED;
+    }
     public static State guess(State s) {
         // TODO begin
-
+        s.chancesLeft--;
+        if (s.word.equals(s.answer)) {
+            s.status = GameStatus.WON;
+        } else if (s.chancesLeft == 0) {
+            s.status = GameStatus.LOST;
+        }
+        int[] answerCount = new int[ALPHABET_SIZE];
+        for (int i = 0; i < WORD_LENGTH; i++)
+            answerCount[s.answer.charAt(i) - 'A']++;
+        for (int i = 0; i < WORD_LENGTH; i++) {
+            if (s.answer.charAt(i) == s.word.charAt(i)) {
+                s.wordState[i] = Color.GREEN;
+                answerCount[s.answer.charAt(i) - 'A']--;
+                updateAlphabetState(s, s.word.charAt(i), Color.GREEN);
+            }
+        }
+        for (int i = 0; i < WORD_LENGTH; i++){
+            if (s.answer.charAt(i) == s.word.charAt(i))
+                continue;
+            if(answerCount[s.word.charAt(i) - 'A'] > 0) {
+                s.wordState[i] = Color.YELLOW;
+                answerCount[s.word.charAt(i) - 'A']--;
+                updateAlphabetState(s, s.word.charAt(i), Color.YELLOW);
+            }
+            else {
+                s.wordState[i] = Color.RED;
+                updateAlphabetState(s, s.word.charAt(i), Color.RED);
+            }
+        }
         // TODO end
         return s;
     }
