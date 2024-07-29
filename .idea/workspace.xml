@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ffd7e11-6999-44d7-8b8b-e25330905356" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/Wordle/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/Wordle/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/ThreeSumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/ThreeSumClosest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,36 +55,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Gradle.LongestSubstringWithoutRepeatingCharactersTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ThreeSumClosestTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.WordleTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.sast2024-java [:CompositionExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.sast2024-java [:EnumExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.sast2024-java [:InheritanceExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.sast2024-java [:InterfaceExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.sast2024-java [:LinkedListExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.sast2024-java [:ObjectExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.sast2024-java [:StaticExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.sast2024-java [:Wordle.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.sast2024-java.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Codes/Projects/sast-summer-training-2024/sast2024-java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.24942529&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.LongestSubstringWithoutRepeatingCharactersTest.executor": "Run",
+    "Gradle.ThreeSumClosestTest.executor": "Run",
+    "Gradle.WordleTest.executor": "Run",
+    "Gradle.sast2024-java [:CompositionExample.main()].executor": "Run",
+    "Gradle.sast2024-java [:EnumExample.main()].executor": "Run",
+    "Gradle.sast2024-java [:InheritanceExample.main()].executor": "Run",
+    "Gradle.sast2024-java [:InterfaceExample.main()].executor": "Run",
+    "Gradle.sast2024-java [:LinkedListExample.main()].executor": "Run",
+    "Gradle.sast2024-java [:LongestSubstringWithoutRepeatingCharacters.main()].executor": "Run",
+    "Gradle.sast2024-java [:ObjectExample.main()].executor": "Run",
+    "Gradle.sast2024-java [:StaticExample.main()].executor": "Run",
+    "Gradle.sast2024-java [:Wordle.main()].executor": "Run",
+    "Gradle.sast2024-java.executor": "Run",
+    "Gradle.升级 Gradle 包装器.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Codes/Projects/sast-summer-training-2024/sast2024-java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.24942529",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -109,10 +116,15 @@
       <workItem from="1721834230250" duration="1136000" />
       <workItem from="1721871200225" duration="14000" />
       <workItem from="1721871623354" duration="33000" />
+      <workItem from="1722254300424" duration="1232000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
